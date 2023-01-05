@@ -1,0 +1,20 @@
+adminReport:
+  credentials: <?php echo Attribute::VIEW_COMPLIANCE, PHP_EOL ?>
+  
+batchAdminReport:
+  credentials: <?php echo Attribute::MASTER_ADMIN_USER, PHP_EOL ?>
+  
+calculateComplianceProgramStatusTask:
+  is_secure: false
+  
+downloadIndividualReports:
+  credentials: <?php echo Attribute::VIEW_PHI, PHP_EOL ?>
+  
+editComplianceProgramExceptions:
+  credentials: <?php echo Attribute::VIEW_COMPLIANCE, PHP_EOL ?>
+  
+streamAdminReport:
+  credentials: <?php echo Attribute::MASTER_ADMIN_USER, PHP_EOL ?>
+
+calculateComplianceProgramStatus:
+  is_secure: false
